@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4c9a0ff7-3765-46c6-a9a1-8616b0151e4c" name="Changes" comment="added two simple tests for get and post requests">
-      <change afterPath="$PROJECT_DIR$/src/test/kotlin/CreateUserAndCheckTheStatusCode.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/CreateUserAndCheckTheStatusCode.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/CreateUserAndCheckTheStatusCode.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,6 +81,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CreateUserAndCheckTheStatusCode: check created user in get request" type="ioKotest" factoryName="Kotest" temporary="true" defaultName="singleModule">
+      <module name="Kotest" />
+      <option name="jrePath" value="" />
+      <option name="jrePathEnabled" value="false" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" value="$MODULE_WORKING_DIR$" />
+      <option name="programParameters" value="" />
+      <option name="specName" value="CreateUserAndCheckTheStatusCode" />
+      <option name="testPath" value="check created user in get request" />
+      <option name="packageName" value="" />
+      <option name="vmparams" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HttpTest" type="ioKotest" factoryName="Kotest" temporary="true" defaultName="singleModule">
       <module name="Kotest" />
       <option name="jrePath" value="" />
@@ -114,6 +127,7 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Kotest.CreateUserAndCheckTheStatusCode: check created user in get request" />
       <item itemvalue="Kotest.CreateUserAndCheckTheStatusCode" />
       <item itemvalue="Kotest.HttpTest" />
       <item itemvalue="Kotest.HttpTest: should return a list of pets" />
@@ -121,6 +135,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Kotest.CreateUserAndCheckTheStatusCode" />
+        <item itemvalue="Kotest.CreateUserAndCheckTheStatusCode: check created user in get request" />
         <item itemvalue="Kotest.HttpTest" />
         <item itemvalue="Kotest.HttpTest: should return a list of pets" />
       </list>
@@ -149,7 +164,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693137712457</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added two simple tests for get and post requests">
+      <created>1693157190725</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1693157190725</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -158,5 +180,21 @@
     <MESSAGE value="fixed requests sending" />
     <MESSAGE value="added two simple tests for get and post requests" />
     <option name="LAST_COMMIT_MESSAGE" value="added two simple tests for get and post requests" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/test/kotlin/CreateUserAndCheckTheStatusCode.kt</url>
+          <line>25</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/test/kotlin/CreateUserAndCheckTheStatusCode.kt</url>
+          <line>29</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
