@@ -39,16 +39,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Java_projects/KotestAPI",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Java_projects/KotestAPI&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
       <recent name="" />
@@ -91,7 +91,22 @@
       <option name="specName" value="CreateUserAndCheckTheStatusCode" />
       <option name="testPath" value="check created user in get request" />
       <option name="packageName" value="" />
-      <option name="vmparams" value="" />
+      <option name="vmparams" value="--add-opens java.base/sun.net.www.protocol.https=ALL-UNNAMED" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CreateUserAndCheckTheStatusCode: it is possible to create user" type="ioKotest" factoryName="Kotest" temporary="true" defaultName="singleModule">
+      <module name="Kotest" />
+      <option name="jrePath" value="" />
+      <option name="jrePathEnabled" value="false" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" value="$MODULE_WORKING_DIR$" />
+      <option name="programParameters" value="" />
+      <option name="specName" value="CreateUserAndCheckTheStatusCode" />
+      <option name="testPath" value="it is possible to create user" />
+      <option name="packageName" value="" />
+      <option name="vmparams" value="--add-opens java.base/sun.net.www.protocol.https=ALL-UNNAMED" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -127,6 +142,7 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Kotest.CreateUserAndCheckTheStatusCode: it is possible to create user" />
       <item itemvalue="Kotest.CreateUserAndCheckTheStatusCode: check created user in get request" />
       <item itemvalue="Kotest.CreateUserAndCheckTheStatusCode" />
       <item itemvalue="Kotest.HttpTest" />
@@ -135,6 +151,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Kotest.CreateUserAndCheckTheStatusCode" />
+        <item itemvalue="Kotest.CreateUserAndCheckTheStatusCode: it is possible to create user" />
         <item itemvalue="Kotest.CreateUserAndCheckTheStatusCode: check created user in get request" />
         <item itemvalue="Kotest.HttpTest" />
         <item itemvalue="Kotest.HttpTest: should return a list of pets" />
@@ -171,7 +188,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693157190725</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added two simple tests for get and post requests">
+      <created>1693158659667</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1693158659667</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -180,21 +204,5 @@
     <MESSAGE value="fixed requests sending" />
     <MESSAGE value="added two simple tests for get and post requests" />
     <option name="LAST_COMMIT_MESSAGE" value="added two simple tests for get and post requests" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/test/kotlin/CreateUserAndCheckTheStatusCode.kt</url>
-          <line>25</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/test/kotlin/CreateUserAndCheckTheStatusCode.kt</url>
-          <line>29</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
